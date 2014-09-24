@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Turist</string>
+    <string name="action_settings">Načítavam gps súradnice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mountain">Icon of mountain</string>
+    <string name="hory">Pohoria a vrchy</string>
+    <string name="hrady">Hrady a zámky</string>
+    
+    <string name="main_text">Vyber región</string>
+    <string name="zilinsky">Žilinský kraj</string>
+    <string name="presovsky">Prešovský kraj</string>
+    <string name="other">Iné pamiatky</string>
+    
+    
+    
+	<color name="gray">#13171a</color>
+	<color name="texture">#f1ebdd</color>
+	<color name="black">#000000</color>
+	<color name="semi_gray">#BB13171a</color>
+	<color name="semihalf_gray">#2213171a</color>
+	<color name="ic_line">#717274</color>
+	<color name="white">#d5d5d5</color>
+	<color name="green">#52ce6f</color>
+	<string name="inform_cie_o_pamiatke">Informácie o pamiatke</string>
+	<string name="pridajbtn_gps">Pridaj</string>
+	<string name="zmazbtn_gps">Zmaž</string>
+	<string name="potvrdbtn_gps">Potvrď</string>
+	<string name="info_poloha_gps">Informácie o polohe</string>
+	<string name="buttons_textprogress">0%</string>
+	<string name="visited_map">Navštívené</string>
+	<string name="legenda_map">Legenda:</string>
+	<string name="visited_places_map">Navštívené miesta</string>
+	<string name="notVisitedPlaces_map">Doposiaľ nenavštívené mestá</string>
+	<string name="placesUpTo10_map">Miesta vzdialené do 10km</string><string name="progresText_map">0%</string>
+    <string name="notVisited_map">Nenavštívené</string>
+    <string name="imgDescritor_map">icon</string>
+    <string name="listViewIcon_listView">listViewIcon</string>
+    <string name="jaskyne_listView">Jaskyne a vodopády</string>
+    <string name="pohoria_listView">Pohoria a vrchy</string>
+    <string name="hrady_listView">Hrady a zámky</string>
+    <string name="mesta_listView">Mestá a osady</string>
+    <string name="cirkevne_listView">Cirkevné a technické pamiatky</string>
+    <string name="Error_connectionGPS">Chyba nie je možné sa pripojiť na google play services</string>
+    <string name="Error_connectionstatus">Status pripájania: chyba</string><string name="Error_neoverene_miesto">Navštívenie daného miesta zatiaľ nie je overené. (Pre overenie GPS súradníc stlač OK)</string>
+    <string name="explored_place">Gratulujem objavil si ďalšie miesto</string>
+    <string name="place_canot_explored">Nachádzaš sa viac ako 1 km od daného miesta !!!</string>
+    <string name="place_canot_explored2">Informácia o tvojej pozícii je nedostupná !!!</string>
+    <string name="map">Mapa</string>
+    <string name="map_description">Zobrazí mapu a doterajšie progres</string>
+    <string name="statistics">Štatistiky</string>
+    <string name="statistics_description">Štatistiky activity za vybrané obdobie</string>
+    <string name="place_already_visited">Dané miesto už bolo navštívené</string>
+    <string name="OKbtn">OK</string>
+    <string name="Cancelbtn">Späť</string>
+    <string name="PositionNotFinded">Nenašla sa žiadna pozícia</string>
+    <string name="Latitude">Zemepisná šírka</string>
+    <string name="Longitude">Zemepisná dĺžka</string>
+    <string name="CurrentPosition">Tvoja aktuálna pozícia je</string>
+    <string name="YouAre">Nachádzaš sa</string>
+    <string name="gpsOffInfo">Údaj prístupný iba s využitím gps</string>
+    <string name="YouAre_from_place">km od vybraného miesta\n\nTvoja nadmorská výška je</string>
+    <string name="Altitude">m.n.m.</string>
+    <string name="Altitude2">Nadmorská výška vybraného miesta je</string>
+    <string name="Altitude_difference">Ešte musíš prekonať prevýšenie</string>
+    <string name="meter">metrov</string>
+    <string name="GPS_info">Údaj prístupný iba s využitím gps alebo internetu</string>
+    <string name="region">Okres</string>
+    <string name="description">Popis</string>
+    <string name="Altitude_base">Nadmorská výška</string>
+    <string name="mounth1">Január</string>
+    <string name="mounth2">Február</string>
+    <string name="mounth3">Marec</string>
+    <string name="mounth4">Apríl</string>
+    <string name="mounth5">Máj</string>
+    <string name="mounth6">Jún</string>
+    <string name="mounth7">Júl</string>
+    <string name="mounth8">August</string>
+    <string name="mounth9">September</string>
+    <string name="mounth10">Október</string>
+    <string name="mounth11">November</string>
+    <string name="mounth12">December</string>
+    <string name="activity1">Nízka</string>
+    <string name="activity2">Stredná</string>
+    <string name="activity3">Vysoká</string>
+</resources>

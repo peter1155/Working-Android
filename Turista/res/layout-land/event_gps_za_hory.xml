@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paper_texture"
+    tools:context=".MainActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_za_hory"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:maxLines="5"
+            android:paddingBottom="2dp"
+            android:scrollbars="vertical"
+            android:text="@string/zilinsky"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+    </TableRow>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="304dp"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:paddingTop="20dp" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:paddingBottom="1dp"
+            android:text="@string/inform_cie_o_pamiatke"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <RatingBar
+            android:id="@+id/Gps_za_hory_rateing"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:isIndicator="true"
+            android:numStars="4"
+            android:stepSize="0.1" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:paddingBottom="1dp"
+            android:text="@string/info_poloha_gps"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/gps_event_img"
+            android:layout_width="0dip"
+            android:layout_height="120dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.25"
+            android:adjustViewBounds="false"
+            android:clickable="true"
+            android:contentDescription="@string/hello_world"
+            android:paddingRight="3dp"
+            android:paddingTop="3dp"
+            android:scaleType="fitCenter"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/za" />
+
+        <TextView
+            android:id="@+id/Gps_za"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:maxLines="100"
+            android:scrollbars="vertical"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:typeface="serif"
+            android:width="1dp" />
+
+        <TableLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" >
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/stamp"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/container_dropshadow"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/textPozicia"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:maxLines="10"
+                    android:paddingBottom="1dp"
+                    android:scrollbars="vertical"
+                    android:text="@string/action_settings"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:typeface="serif" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_add"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.2"
+            android:onClick="onClick"
+            android:text="@string/pridajbtn_gps" />
+
+        <Button
+            android:id="@+id/btn_remove"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.2"
+            android:onClick="onClick"
+            android:text="@string/zmazbtn_gps" />
+
+        <Button
+            android:id="@+id/button_gps"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:onClick="onClick"
+            android:text="@string/potvrdbtn_gps" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="InlinedApi">
+        <ignore path="src/com/example/turist/Events_gps.java" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/example/pr/Event_gps.java" />
+        <ignore path="src/com/example/turist/Events_gps.java" />
+        <ignore path="src/com/example/za/Event_gps.java" />
+    </issue>
+</lint>

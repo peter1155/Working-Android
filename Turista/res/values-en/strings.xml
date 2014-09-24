@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Turist</string>
+    <string name="action_settings">Loading GPS coordinates</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mountain">Icon of mountain</string>
+    <string name="hory">Mountains and peaks</string>
+    <string name="hrady">Castles and chateaus</string>
+    
+    <string name="main_text">Choose region</string>
+    <string name="zilinsky">Zilinský region</string>
+    <string name="presovsky">Presov region</string>
+    <string name="other">Other landmarks</string>
+    
+    
+    
+	<color name="gray">#13171a</color>
+	<color name="texture">#f1ebdd</color>
+	<color name="black">#000000</color>
+	<color name="semi_gray">#BB13171a</color>
+	<color name="semihalf_gray">#2213171a</color>
+	<color name="ic_line">#717274</color>
+	<color name="white">#d5d5d5</color>
+	<color name="green">#52ce6f</color>
+	<string name="inform_cie_o_pamiatke">Information about landmark</string>
+	<string name="pridajbtn_gps">Add</string>
+	<string name="zmazbtn_gps">Delete</string>
+	<string name="potvrdbtn_gps">Confirm</string>
+	<string name="info_poloha_gps">Information about location</string>
+	<string name="buttons_textprogress">0%</string>
+	<string name="visited_map">Attended</string>
+	<string name="legenda_map">Legend:</string>
+	<string name="visited_places_map">Visited places</string>
+	<string name="notVisitedPlaces_map">Unattended places</string>
+	<string name="placesUpTo10_map">Landmarks within 10km</string><string name="progresText_map">0%</string>
+    <string name="notVisited_map">Unattended</string>
+    <string name="imgDescritor_map">icon</string>
+    <string name="listViewIcon_listView">listViewIcon</string>
+    <string name="jaskyne_listView">Caves and waterfalls</string>
+    <string name="pohoria_listView">Mountains and peaks</string>
+    <string name="hrady_listView">Castles and chateaus</string>
+    <string name="mesta_listView">Cities and settlments</string>
+    <string name="cirkevne_listView">Churches and technical lanmarks</string>
+    <string name="Error_connectionGPS">Google play services error</string>
+    <string name="Error_connectionstatus">Connection status: fail</string><string name="Error_neoverene_miesto">Navštívenie daného miesta zatiaľ nie je overené. (Pre overenie GPS súradníc stlač OK)</string>
+    <string name="explored_place">Congratulation, you have discovered next landmark</string>
+    <string name="place_canot_explored">You are more than 1 km from the place of !!!</string>
+    <string name="place_canot_explored2">Information about your position is not available !!!</string>
+    <string name="map">Map</string>
+    <string name="map_description">Displays the map and progress</string>
+    <string name="statistics">Statistics</string>
+    <string name="statistics_description">Activity statistics for selected period</string>
+    <string name="place_already_visited">The landmark has been visited</string>
+    <string name="OKbtn">OK</string>
+    <string name="Cancelbtn">Back</string>
+    <string name="PositionNotFinded">Can not find your position</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Longitude">Longitude</string>
+    <string name="CurrentPosition">Your current position is</string>
+    <string name="YouAre">You are</string>
+    <string name="gpsOffInfo">Detail only available with GPS</string>
+    <string name="YouAre_from_place">km from the selected landmark\n\nYour altitude is</string>
+    <string name="Altitude">MASL</string>
+    <string name="Altitude2">Altitude of selected landmark is</string>
+    <string name="Altitude_difference">Still have to overcome the superelevation</string>
+    <string name="meter">meters</string>
+    <string name="GPS_info">Data, accessible only by using GPS or internet</string>
+    <string name="region">District</string>
+    <string name="description">Description</string>
+    <string name="Altitude_base">Altitude</string>
+</resources>
