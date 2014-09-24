@@ -26,4 +26,8 @@ public class EventGps extends EventsGps {
         if(Log.isLoggable(tag, Log.INFO))
         	Log.i(tag, "End setDefaultImg");
 	}
+	
+	// Now I working hard on my project doing some misstakes
+	// Ok this was difficult but finally I'm done with it.
+	// Adding comment to this file
 }
