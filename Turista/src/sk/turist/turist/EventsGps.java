@@ -369,7 +369,7 @@ public abstract class EventsGps extends Activity implements GooglePlayServicesCl
 									Log.i(tag, "Starting onClick of dialog");
 								if (distance != null)
 								{
-									if (distance <= 1000)
+									if (distance <= 1)
 									{
 										if(MainActivity.check[Integer.valueOf(c.getString(0))])
 										{

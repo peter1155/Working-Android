@@ -393,6 +393,7 @@ public class Progress extends FragmentActivity implements ClusterManager.OnClust
 	/**
 	 * This method restore map state and state of checkboxes
 	 */
+	
 	@Override
 	public void onRestoreInstanceState(Bundle savedInstanceState)
 	{
